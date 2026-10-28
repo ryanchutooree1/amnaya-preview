@@ -1,0 +1,13 @@
+{
+  "name": "amnaya-atelier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A local luxury fashion house website concept for Amnaya.",
+  "scripts": {
+    "build:preview": "node scripts/build-preview.mjs",
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check catalog.js && node --check app.js && node --check storefront.js && node --check server.mjs"
+  }
+}
