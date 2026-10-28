@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "scope": "Expanded Amnaya local storefront",
+  "verified": {
+    "routes": 35,
+    "collectionStudies": 12,
+    "collectionRoutes": 7,
+    "journalArticles": 3,
+    "generatedCampaignImages": 10,
+    "newCampaignImages": 7,
+    "responsiveWidths": [
+      320,
+      375,
+      414,
+      768
+    ],
+    "horizontalOverflow": false,
+    "flows": [
+      "Department mega-menu to category collection",
+      "Material and silhouette filters, zero-result state and reset",
+      "Product deep-link reload with root-relative image and script assets",
+      "Fit validation before adding to selection",
+      "Selection bag quantities, persistence across reload and item removal",
+      "Gift-presentation request and note transferred into the enquiry",
+      "Enquiry preview contains selected fit and quantity",
+      "Gift finder updates recommendations from style preference",
+      "Gifting preferences and optional budget transferred into enquiry",
+      "Journal listing and full article navigation",
+      "Search result routes to a full product page",
+      "Saved-piece page updates to its empty state after removal",
+      "Circle form rejects invalid email and prepares an unsent invitation request",
+      "Mobile collection filters and navigation drawer",
+      "Photograph detail view and enlarged image dialog",
+      "Fit guide dialog opens and dismisses correctly",
+      "Descending catalogue sort produces the expected first title",
+      "Expanded search filters to a single new collection study"
+    ],
+    "imageEncoding": "10 lossless WebP assets verified pixel-identical, reduced from 25,689,849 to 17,352,508 bytes"
+  },
+  "delivery": "Local only; no messages sent and no payment taken",
+  "remainingBusinessSetup": [
+    "Confirm real products, materials, sizes, prices and stock",
+    "Approve final campaign photography and public atelier contact",
+    "Configure real payments, orders and newsletter delivery if required"
+  ]
+}

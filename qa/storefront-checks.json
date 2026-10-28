@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "routes": 35,
+  "products": 12,
+  "journalArticles": 3,
+  "uniqueImages": 10,
+  "checks": [
+    "Catalogue references and image files",
+    "Journal product links",
+    "Unique static HTML IDs",
+    "Deep-route HTML and root-relative resources",
+    "WebP asset availability and MIME types",
+    "Application asset availability",
+    "Private project-note isolation"
+  ]
+}

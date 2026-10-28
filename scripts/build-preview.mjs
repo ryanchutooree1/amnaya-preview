@@ -29,9 +29,12 @@ for (const file of ["styles.css", "storefront.css", "tokens.css", "catalog.js", 
     const urlHook = "const url = new URL(href, location.origin);";
     if (!source.includes(routingHook) || !source.includes(urlHook)) throw new Error("Routing hooks changed; review the static export");
     source = source.replaceAll("location.pathname", "sitePathname()");
-    source = source.replace(routingHook, `${routingHook}\n  const previewBase = ${JSON.stringify(base)};\n  const sitePathname = () => {\n    const path = location.pathname;\n    return path === previewBase ? '/' : path.startsWith(previewBase + '/') ? path.slice(previewBase.length) : path;\n  };`);
+    source = source.replace(routingHook, `${routingHook}\n  const previewBase = ${JSON.stringify(base)};\n  const sitePathname = () => {\n    const path = location.pathname;\n    return path === previewBase ? '/' : path.startsWith(previewBase + '/') ? path.slice(previewBase.length) : path;\n  };\n  const prefixSiteLinks = () => {\n    document.querySelectorAll('a[href^="/"]').forEach(link => {\n      const href = link.getAttribute('href');\n      if (!href.startsWith('//') && href !== previewBase && !href.startsWith(previewBase + '/')) link.setAttribute('href', previewBase + href);\n    });\n  };`);
     source = source.replace(urlHook, `${urlHook}\n    if (url.pathname !== previewBase && !url.pathname.startsWith(previewBase + '/')) url.pathname = previewBase + url.pathname;`);
     source = source.replace('link.getAttribute("href") === path', 'link.getAttribute("href") === previewBase + path');
+    const finishRoute = 'qa(".desktop-nav a").forEach(link =>';
+    source = source.replace(finishRoute, `prefixSiteLinks();\n    ${finishRoute}`);
+    source = source.replace('showDepartment(target.dataset.department, target); return;', 'showDepartment(target.dataset.department, target); prefixSiteLinks(); return;');
   }
   if (file.endsWith(".js")) new vm.Script(source, { filename: file });
   await fs.writeFile(path.join(output, file), source);

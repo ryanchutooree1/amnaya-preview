@@ -1,0 +1,22 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-28",
+  "usage": "Local website creative concept; not actual inventory or documentary photography",
+  "images": [
+    {
+      "key": "hero",
+      "prompt": "Use case: photorealistic-natural. Create one breathtaking luxury conscious fashion campaign photograph for a Mauritian heritage atelier called Amnaya. Wide landscape 16:9 composition. A beautiful adult Indian-Mauritian woman about 30 with natural warm brown skin, dark hair in a low bun, sculptural small antique gold earrings, wearing a flowing deep oxblood silk sari with understated gold woven edging and modern sleeveless blouse. She stands calmly at the RIGHT THIRD of the frame in a timeworn cream limewashed tropical courtyard with tall antique wooden shutter doors, rough ivory stone, a palm shadow, and softly blurred sparse foliage. In a gentle sea breeze the long silk drape extends leftwards. Image must feel like a Vogue India campaign shot on medium-format film by a real fashion photographer: tactile silk, sophisticated shadow, beautiful natural face, believable hands, slightly grainy, art-directed and exquisite. Left 45 percent is uncluttered cream shadowed architectural negative space intended for dark headline overlay. Quiet, self-possessed, inherited elegance, warm late afternoon sun. Muted cream, pale sand, oxblood, antique gold palette. No text, logos, watermark or borders. This is editorial concept photography, not an actual advertised product.",
+      "file": "images/amnaya-campaign.png"
+    },
+    {
+      "key": "portrait",
+      "prompt": "Use case: photorealistic-natural. One high-end fashion editorial portrait for a conscious Mauritian heritage atelier. Vertical 3:4 photograph, full length of an elegant adult Indian-Mauritian woman about 32 wearing a sculptural ivory linen co-ord, short sleeveless draped long tunic and fluid wide leg trousers, delicate antique brass bangle. Barely moving through a sunlit old stone veranda with arches, tropical palm shadows and sand-colored plaster. Restrained, refined luxury, warm analog medium format photography, candid face, natural skin and material texture, warm luminous shadows. Entire outfit visible with room around her, background minimal. No text, watermark, brands or borders. Creative collection concept, not a real product.",
+      "file": "images/ivory-study.png"
+    },
+    {
+      "key": "craft",
+      "prompt": "Use case: photorealistic-natural. One exquisite luxury atelier editorial still life, landscape 4:3, very close detailed photograph of an older South Asian craftswoman's real hands with fine wrinkles carefully hand stitching a tiny antique gold thread border on a rich burgundy silk fabric, laid on a worn warm dark wood table. Small brass sewing scissors and a spool of fine cream thread in the background. Lateral soft window light, warm earthy cinematic chiaroscuro, analog film grain, selective focus, meticulous believable hand and needle detail. Quiet human intimacy, authentic craftsmanship, deep oxblood and honey colored light, luxurious tactility. No text, no logos, no watermark. Editorial concept image.",
+      "file": "images/hands-of-amnaya.png"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Original creative campaign and collection studies for the local Amnaya storefront upgrade",
+  "date": "2026-10-28",
+  "images": [
+    {
+      "key": "island-edit",
+      "file": "island-edit.png",
+      "prompt": "Use case: photorealistic-natural. One exquisite wide 16:9 luxury fashion campaign photograph for Amnaya, a heritage conscious fashion house in Mauritius. TWO elegant adult Indian-Mauritian women with natural brown skin and natural expressive faces in their early 30s, full body, separated by generous negative space, walking along a sun washed old tropical colonial veranda. Woman on LEFT THIRD wears a sophisticated muted olive green linen sleeveless waistcoat and fluid wide leg trousers. Woman on RIGHT THIRD wears a warm sand coloured relaxed long-sleeve linen shirt and matching long skirt. Sculptural small brass earrings. Both outfits clear and believable, contemporary quiet luxury. Faded coral and cream plaster, old carved teak shutters, soft palm shadow, sliver of ocean and palms beyond. Cinematic late afternoon sunlight, tactile linen and analog medium format photography, warm subdued tones, balanced candid movement, beautifully art directed Vogue editorial. Each woman must be far enough apart to individually crop her from the original wide frame as a portrait. No typography, logos, frames, collage or watermark. This is an original creative collection concept, not documentary or real product inventory."
+    },
+    {
+      "key": "indigo-dress",
+      "file": "indigo-dress.png",
+      "prompt": "Use case: photorealistic-natural. A full-length portrait 3:4 fashion editorial concept for Amnaya luxury heritage atelier. An elegant adult Indian-Mauritian woman about 30, natural warm brown skin, wearing a deep indigo blue soft cotton ankle length wrap dress with delicate v neck, elbow sleeves and sculptural tied waist, minimal antique gold hoop earrings. Full outfit visible with space at top and sides. She stands beside a weathered pale limestone wall and a tall dark teak open doorway in a sun dappled tropical courtyard. Unposed, quiet self possession, feet and face visible, believable hands. Real tactile cotton with creases, natural skin and soft eyes. Understated expensive medium format analog fashion campaign. Subdued ivory indigo gold palette. No text, logo, border, watermark. A creative garment study, not an existing product."
+    },
+    {
+      "key": "rose-sari",
+      "file": "rose-sari.png",
+      "prompt": "Use case: photorealistic-natural. A luxury fashion campaign portrait in vertical 3:4. Elegant adult Indian-Mauritian woman around 35 with warm medium brown skin and a soft low bun wearing a flowing muted dusty rose silk sari with delicate old gold woven edge and matching short sleeve blouse. Full body including hem, gracefully draped silk, subtle tiny earrings, natural hands and proud relaxed expression. Warm peach faded plaster courtyard, old wooden carved door behind, single plumeria bloom on stone step, gentle diffuse morning sunlight. Luminous natural skin, tactile lustrous rose silk, medium format film grain, worldly and intimate, Vogue India fashion editorial quality. Space around her for tasteful website cropping. Absolutely no typography, logos, collage, watermark or borders. Original collection concept."
+    },
+    {
+      "key": "evening-dress",
+      "file": "evening-dress.png",
+      "prompt": "Use case: photorealistic-natural. A world class luxury fashion editorial photograph, vertical 3:4 full length portrait. Beautiful adult Indian-Mauritian woman around 30 with deep brown skin and dark hair tied back, wearing an elegant soft charcoal black sleeveless sculptural midi dress with asymmetric draped neckline, cinched waist and architectural fluid skirt, a single sculptural warm brass cuff. A quiet evening on an old stone tropical terrace, dark aged teak door, cream limestone corner, warm low amber sun grazing her face and dress, distant soft green tropical foliage. Full garment visible, natural stance and hands, serene strength, expensive magazine photography, subtle analog grain, richly textured fabric. Avoid glamour party posing and shiny synthetic fabric. No text, logo, frame, watermark. Amnaya creative collection concept, not actual inventory."
+    },
+    {
+      "key": "botanical-tunic",
+      "file": "botanical-tunic.png",
+      "prompt": "Use case: photorealistic-natural. One refined fashion campaign full body vertical 3:4 portrait for Amnaya. An elegant adult South Asian Mauritian woman about 40 with warm brown skin, dark loose hair, and real natural face wearing a beautiful long ivory cotton tunic and fluid trousers with muted moss green and rust small hand block printed botanical motifs. The tunic is long sleeved with a simple open band collar, spare details, gracefully relaxed silhouette. Full outfit visible. She is walking slowly beside worn cream coral limewash courtyard walls under a tropical frangipani tree, old timber doors and muted green leaves. Soft afternoon sunlight, earthy peaceful mood, natural cloth creases and tactility, believable hands, very premium editorial medium format photography with subtle grain. No typography, watermarks, logos or frames. Original creative silhouette study."
+    },
+    {
+      "key": "gifting",
+      "file": "gifting.png",
+      "prompt": "Use case: product-mockup. One magnificent luxury fashion atelier gifting editorial still life. Wide landscape 4:3, overhead slightly angled photograph. A thick folded creamy handwoven silk stole with very delicate antique gold edge draped over an open unbranded textured ivory gift box tied with a narrow oxblood cotton ribbon. A pair of sculptural matte brass organic hoop earrings lies beside the stole; one dried frangipani blossom; one blank cream notecard with no writing. Warm honed sand limestone surface, indirect tropical afternoon sun and dark sculptural palm shadow. Beautiful natural fabric threads visible and soft warm shadows. Rich quiet luxury, analogue medium format editorial, tasteful negative space. Muted ivory, burgundy and honey gold. No text, letters, logos, watermark or border. Original gifting concept, not real merchandise."
+    },
+    {
+      "key": "atelier-journal",
+      "file": "atelier-journal.png",
+      "prompt": "Use case: photorealistic-natural. One cinematic interior editorial photograph of an imagined Mauritian fashion atelier, wide 16:9. Sunlit old colonial tropical room with cream limewashed walls, very tall dark teak shutter doors opened to lush green palms and a glimpse of blue sea, old wooden worktable in foreground with ivory linen and oxblood silk softly folded, brass tailoring scissors and a sketchbook open to blank textured paper, a single cane chair, a large ceramic vase with one green branch. No people. Luxurious natural materials, peaceful and warm, architectural digest style medium format film photograph, soft morning sun with distinct window shadows, textured real surfaces, understated art direction. No writing, text, logos, watermark, frame or collage. Original editorial concept for a heritage fashion house."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-28",
+  "delivery": "Local-only, http://localhost:4173",
+  "checks": {
+    "syntax": "app.js and server.mjs passed Node syntax checks",
+    "assets": "9 PNG files verified; all requested local CSS, JavaScript, image and font routes returned HTTP 200",
+    "browserConsole": "No errors or warnings",
+    "responsive": [
+      320,
+      375,
+      414,
+      768
+    ],
+    "responsiveResult": "No document horizontal overflow at each width; phone headline and header refined after visual inspection",
+    "interactions": [
+      "Category filters select correct studies",
+      "Piece dialogs render the selected study",
+      "Favourites save, persist across reload and remove correctly",
+      "Search returns matching study and meaningful empty-state UI",
+      "Mobile menu opens, navigates and closes",
+      "Escape closes search even with a populated search input",
+      "Craft accordions expand",
+      "Enquiry form rejects missing/invalid identity fields",
+      "Enquiry review retains selected piece and user details",
+      "Email draft targets verified sender address; no email sent",
+      "Downloaded .eml verified for recipient, Unicode subject, UTF-8 body and X-Unsent flag"
+    ],
+    "contrast": [
+      {
+        "colors": "ink/paper",
+        "contrast": "15.06"
+      },
+      {
+        "colors": "muted/paper",
+        "contrast": "6.53"
+      },
+      {
+        "colors": "muted/paper2",
+        "contrast": "5.83"
+      },
+      {
+        "colors": "muted/paper3",
+        "contrast": "5.22"
+      },
+      {
+        "colors": "accentInk/accent",
+        "contrast": "11.83"
+      },
+      {
+        "colors": "nightMuted/ink",
+        "contrast": "8.82"
+      },
+      {
+        "colors": "focus/paper",
+        "contrast": "3.38"
+      },
+      {
+        "colors": "focus/accent",
+        "contrast": "3.48"
+      },
+      {
+        "colors": "focus/ink",
+        "contrast": "4.46"
+      }
+    ]
+  },
+  "limitations": [
+    "AI-generated campaign and garment studies are concepts, not confirmed inventory or documentary artisan photos",
+    "No online payments, live appointment calendar or automated email delivery",
+    "Enquiry draft address is the sender’s business address and should be confirmed before public launch"
+  ]
+}
